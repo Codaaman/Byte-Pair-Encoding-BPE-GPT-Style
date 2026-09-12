@@ -1,4 +1,4 @@
-# 🚀 GPT-Style Byte Pair Encoding (BPE) Tokenizer From Scratch in Pure Python
+# GPT-Style Byte Pair Encoding (BPE) Tokenizer From Scratch in Pure Python
 
 [![Python Version](https://shields.io)](https://python.org)
 [![License: MIT](https://shields.io)](https://opensource.org)
@@ -10,11 +10,11 @@ Engineered natively to handle complex multilingual datasets, this pipeline flawl
 
 ---
 
-## ⚡ Test This Code Instantly on Your Computer or Google Colab!
+## Test This Code Instantly on Your Computer or Google Colab!
 
 This entire pipeline is self-contained and optimized to run with **zero external dependencies** if needed, making it fully compatible with alternative Python runtimes (like **PyPy JIT**).
 
-### 🖥️ Option 1: Run Locally on Your Computer
+### Option 1: Run Locally on Your Computer
 1. Clone this repository:
    ```bash
    git clone https://github.com
@@ -25,7 +25,7 @@ This entire pipeline is self-contained and optimized to run with **zero external
    python Decoder.py
    ```
 
-### ☁️ Option 2: Run on Google Colab Notebook
+### Option 2: Run on Google Colab Notebook
 You can tokenize datasets in the cloud instantly. Open a blank **Google Colab Notebook** and run:
 ```python
 # 1. Clone the repository directly into your Colab workspace
@@ -38,7 +38,7 @@ You can tokenize datasets in the cloud instantly. Open a blank **Google Colab No
 
 ---
 
-## 💎 Elite Features & Architecture
+## Elite Features & Architecture
 
 * **GPT-Standard Tokenization:** Custom iterative pair-merging calculations built from first principles.
 * **Flawless Multilingual Support:** Seamlessly transitions between English characters and dense Hindi subwords (`à¤¾`, `à¥\x87`) without data loss.
@@ -48,7 +48,7 @@ You can tokenize datasets in the cloud instantly. Open a blank **Google Colab No
 
 ---
 
-## 📦 Professional Tokenizer Output Format
+## Professional Tokenizer Output Format
 
 When text passes through the compiled `tokenizer()` function, it automatically generates a machine-ready dictionary ready to be pushed directly into PyTorch networks:
 
@@ -64,7 +64,7 @@ When text passes through the compiled `tokenizer()` function, it automatically g
 
 ---
 
-## 🛠️ Project Component Structure
+## Project Component Structure
 
 ```text
 BPE/
@@ -78,7 +78,7 @@ BPE/
 
 ---
 
-## 🚀 Step-by-Step Deep Learning Integration (PyTorch)
+## Step-by-Step Deep Learning Integration (PyTorch)
 
 To scale this tokenizer into a high-performance deep learning pipeline, simply wrap it in a standard PyTorch custom `Dataset` class:
 
@@ -107,7 +107,7 @@ class MultilingualTextDataset(Dataset):
 
 ---
 
-## 🤝 Contributing & Support
+##  Contributing & Support
 
 If this repository helped you understand how modern LLM tokenizers work from scratch, please **give it a ⭐ Star**! Feel free to fork the repository, open issues, or submit pull requests to accelerate execution speeds even further.
 
